@@ -1,0 +1,8 @@
+{
+    "name": "xgboost",
+    "version": "2.0.0",
+    "model_type": "binary_classification",
+    "num_features": 10,
+    "num_trees": 100,
+    "description": "Placeholder XGBoost model for job matching"
+}

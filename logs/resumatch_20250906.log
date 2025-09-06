@@ -1,0 +1,933 @@
+2025-09-06 10:01:51,343 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 10:01:51,350 [INFO] db.mongo: Database indexes ensured
+2025-09-06 10:02:03,149 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:02:03,149 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:02:08,936 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:02:08,939 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:02:08,982 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:02:08,984 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:02:14,340 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:02:14,343 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:02:14,376 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:02:14,376 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:02:19,930 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:02:19,933 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:02:19,938 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 10:02:19,946 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 10:04:47,444 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 10:04:47,449 [INFO] db.mongo: Database indexes ensured
+2025-09-06 10:04:59,205 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:04:59,205 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:05:05,405 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:05:05,407 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:05:05,446 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:05:05,446 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:05:11,062 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:05:11,064 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:05:11,098 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:05:11,099 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:05:16,513 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:05:16,517 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:05:16,523 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 10:05:16,531 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 10:05:17,883 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 10:05:17,890 [INFO] db.mongo: Database indexes ensured
+2025-09-06 10:05:30,442 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:05:30,442 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:05:39,061 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:05:39,064 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:05:39,122 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:05:39,122 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:05:46,547 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:05:46,550 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:05:46,588 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:05:46,588 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:05:54,316 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:05:54,319 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:05:54,327 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 10:05:54,343 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 10:05:54,433 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 10:05:54,437 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 10:05:54,441 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 10:05:54,441 [INFO] main: Log level: INFO
+2025-09-06 10:09:58,854 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 10:09:58,857 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 10:09:58,858 [INFO] main: MongoDB connection closed
+2025-09-06 10:14:12,416 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 10:14:12,423 [INFO] db.mongo: Database indexes ensured
+2025-09-06 10:14:24,090 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:14:24,090 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:14:29,240 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:14:29,244 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:14:29,293 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:14:29,294 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:14:34,294 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:14:34,296 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:14:34,332 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:14:34,332 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:14:39,631 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:14:39,634 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:14:39,639 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 10:14:39,653 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 10:14:40,948 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 10:14:40,955 [INFO] db.mongo: Database indexes ensured
+2025-09-06 10:14:53,020 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:14:53,021 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:14:58,849 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:14:58,852 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:14:58,894 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:14:58,894 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:15:05,080 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:15:05,082 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:15:05,125 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:15:05,125 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:15:10,811 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:15:10,814 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:15:10,819 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 10:15:10,832 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 10:15:10,893 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 10:15:10,896 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 10:15:10,898 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 10:15:10,898 [INFO] main: Log level: INFO
+2025-09-06 10:16:46,481 [ERROR] main: Unhandled exception: 'AdvancedMatcher' object has no attribute 'extract_skills'
+Traceback (most recent call last):
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\gzip.py", line 29, in __call__
+    await responder(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\gzip.py", line 130, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\gzip.py", line 46, in __call__
+    await self.app(scope, receive, self.send_with_compression)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 75, in app
+    response = await f(request)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\fastapi\routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\fastapi\routing.py", line 213, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\candidate.py", line 37, in upload_resume
+    skills = matcher.extract_skills(text)
+AttributeError: 'AdvancedMatcher' object has no attribute 'extract_skills'
+2025-09-06 10:18:05,952 [ERROR] main: Unhandled exception: Object of type ValueError is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 75, in app
+    response = await f(request)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\fastapi\routing.py", line 347, in app
+    raise validation_error
+fastapi.exceptions.RequestValidationError: [{'type': 'value_error', 'loc': ('body', 'application_url'), 'msg': 'Value error, Application URL must start with http:// or https://', 'input': 'string', 'ctx': {'error': ValueError('Application URL must start with http:// or https://')}}, {'type': 'value_error', 'loc': ('body', 'expires_at'), 'msg': 'Value error, Expiry date must be after creation date', 'input': '2025-09-06T04:47:59.217Z', 'ctx': {'error': ValueError('Expiry date must be after creation date')}}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\gzip.py", line 29, in __call__
+    await responder(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\gzip.py", line 130, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\gzip.py", line 46, in __call__
+    await self.app(scope, receive, self.send_with_compression)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\main.py", line 156, in validation_exception_handler
+    return JSONResponse(
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\responses.py", line 190, in __init__
+    super().__init__(content, status_code, headers, media_type, background)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\responses.py", line 47, in __init__
+    self.body = self.render(content)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\responses.py", line 193, in render
+    return json.dumps(
+  File "C:\Program Files\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Program Files\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Program Files\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ValueError is not JSON serializable
+2025-09-06 10:23:44,708 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 10:23:44,711 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 10:23:44,711 [INFO] main: MongoDB connection closed
+2025-09-06 10:47:01,911 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 10:47:01,917 [INFO] db.mongo: Database indexes ensured
+2025-09-06 10:47:14,955 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:47:14,955 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:47:21,570 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:47:21,572 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:47:21,640 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:47:21,640 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:47:26,965 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:47:26,967 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:47:27,025 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:47:27,026 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:47:32,282 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:47:32,285 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:47:32,293 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 10:47:32,312 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 10:47:33,606 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 10:47:33,614 [INFO] db.mongo: Database indexes ensured
+2025-09-06 10:47:45,920 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:47:45,920 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:47:51,608 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:47:51,611 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:47:51,653 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:47:51,653 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:47:57,343 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:47:57,346 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:47:57,374 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:47:57,375 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:48:02,682 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:48:02,686 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:48:02,693 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 10:48:02,706 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 10:48:02,770 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 10:48:02,772 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 10:48:02,774 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 10:48:02,774 [INFO] main: Log level: INFO
+2025-09-06 10:49:22,806 [INFO] api.candidate: Received resume upload: -Civil Engineering Student Resume.pdf
+2025-09-06 10:49:26,082 [INFO] api.candidate: Successfully extracted text from resume: 22314 characters
+2025-09-06 10:49:26,084 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 10:49:26,085 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 10:49:31,446 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 10:49:31,449 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 10:49:31,450 [ERROR] api.candidate: Resume upload failed: 'AdvancedMatcher' object has no attribute 'common_skills'
+2025-09-06 10:49:31,453 [ERROR] api.candidate: Traceback (most recent call last):
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\candidate.py", line 59, in upload_resume
+    skills = matcher.extract_skills(text)  # This should work now
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\services\matcher.py", line 55, in extract_skills
+    for skill in self.common_skills:
+AttributeError: 'AdvancedMatcher' object has no attribute 'common_skills'
+
+2025-09-06 10:52:04,546 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 10:52:04,549 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 10:52:04,549 [INFO] main: MongoDB connection closed
+2025-09-06 11:00:51,912 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:00:51,920 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:01:04,379 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:01:04,380 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:01:09,928 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:01:09,931 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:01:09,976 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:01:09,977 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:01:15,280 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:01:15,283 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:01:15,318 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:01:15,318 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:01:21,583 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:01:21,585 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:01:21,592 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:01:21,600 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 11:01:22,953 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:01:22,962 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:01:35,186 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:01:35,186 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:01:41,149 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:01:41,151 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:01:41,197 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:01:41,198 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:01:46,792 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:01:46,795 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:01:46,822 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:01:46,825 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:01:52,140 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:01:52,142 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:01:52,150 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:01:52,164 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 11:01:52,226 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:01:52,229 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 11:01:52,230 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 11:01:52,231 [INFO] main: Log level: INFO
+2025-09-06 11:02:31,470 [INFO] api.candidate: Received resume upload: -Computer Engineering Student Resume.pdf
+2025-09-06 11:02:34,829 [INFO] api.candidate: Successfully extracted text from resume: 22314 characters
+2025-09-06 11:02:34,833 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:02:34,833 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:02:40,350 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:02:40,353 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:02:40,362 [ERROR] api.candidate: Resume upload failed: 'AdvancedLMWrapper' object has no attribute 'getEmbeddings'
+2025-09-06 11:02:40,367 [ERROR] api.candidate: Traceback (most recent call last):
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\candidate.py", line 65, in upload_resume
+    embedding = llm.getEmbeddings(combined_text)
+AttributeError: 'AdvancedLMWrapper' object has no attribute 'getEmbeddings'. Did you mean: 'get_embeddings'?
+
+2025-09-06 11:03:35,386 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 11:03:35,388 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 11:03:35,389 [INFO] main: MongoDB connection closed
+2025-09-06 11:04:20,149 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:04:20,156 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:04:32,352 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:04:32,353 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:04:38,254 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:04:38,256 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:04:38,300 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:04:38,301 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:04:44,406 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:04:44,408 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:04:44,446 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:04:44,447 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:04:49,499 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:04:49,502 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:04:49,509 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:04:49,517 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 11:04:50,842 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:04:50,849 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:05:03,291 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:05:03,292 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:05:09,150 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:05:09,152 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:05:09,196 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:05:09,196 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:05:14,960 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:05:14,963 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:05:14,996 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:05:14,997 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:05:20,466 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:05:20,468 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:05:20,476 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:05:20,489 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 11:05:20,549 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:05:20,552 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 11:05:20,553 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 11:05:20,554 [INFO] main: Log level: INFO
+2025-09-06 11:05:59,913 [INFO] api.candidate: Received resume upload: -Computer Engineering Student Resume.pdf
+2025-09-06 11:06:03,192 [INFO] api.candidate: Successfully extracted text from resume: 22314 characters
+2025-09-06 11:06:03,196 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:06:03,197 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:06:08,922 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:06:08,924 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:06:09,257 [INFO] api.candidate: Generated embedding: 384 dimensions
+2025-09-06 11:06:09,262 [INFO] api.candidate: Stored candidate profile with id: 68bbc8491f9ac23670f67970
+2025-09-06 11:06:09,265 [ERROR] api.candidate: Resume upload failed: 'AdvancedMatcher' object has no attribute 'rank_candidate_matches'
+2025-09-06 11:06:09,271 [ERROR] api.candidate: Traceback (most recent call last):
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\candidate.py", line 87, in upload_resume
+    matches = matcher.rank_candidate_matches(candidate_data, job_dicts)
+AttributeError: 'AdvancedMatcher' object has no attribute 'rank_candidate_matches'
+
+2025-09-06 11:10:28,003 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 11:10:28,006 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 11:10:28,007 [INFO] main: MongoDB connection closed
+2025-09-06 11:10:31,293 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:10:31,299 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:10:43,305 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:10:43,306 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:10:48,978 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:10:48,981 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:10:49,023 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:10:49,023 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:10:54,643 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:10:54,646 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:10:54,678 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:10:54,678 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:11:00,154 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:11:00,157 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:11:00,164 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:11:00,175 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 11:11:00,235 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:11:00,237 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 11:11:00,239 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 11:11:00,240 [INFO] main: Log level: INFO
+2025-09-06 11:11:37,578 [INFO] api.candidate: Received resume upload: -Computer Engineering Student Resume.pdf
+2025-09-06 11:11:40,796 [INFO] api.candidate: Successfully extracted text from resume: 22314 characters
+2025-09-06 11:11:40,800 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:11:40,801 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:11:46,726 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:11:46,728 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:11:47,101 [INFO] api.candidate: Generated embedding: 384 dimensions
+2025-09-06 11:11:47,105 [INFO] api.candidate: Stored candidate profile with id: 68bbc99b8f61a9126a6045eb
+2025-09-06 11:11:47,106 [ERROR] api.candidate: Resume upload failed: AdvancedMatcher.rank_matches() missing 1 required positional argument: 'profile_type'
+2025-09-06 11:11:47,107 [ERROR] api.candidate: Traceback (most recent call last):
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\candidate.py", line 87, in upload_resume
+    matches = matcher.rank_matches(candidate_data, job_dicts)
+TypeError: AdvancedMatcher.rank_matches() missing 1 required positional argument: 'profile_type'
+
+2025-09-06 11:15:29,278 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 11:15:29,280 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 11:15:29,280 [INFO] main: MongoDB connection closed
+2025-09-06 11:16:27,394 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:16:27,402 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:16:39,817 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:16:39,817 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:16:45,628 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:16:45,631 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:16:45,677 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:16:45,677 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:16:51,144 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:16:51,147 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:16:51,178 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:16:51,178 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:16:56,635 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:16:56,637 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:16:56,645 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:16:56,654 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 11:16:58,364 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:16:58,373 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:17:10,589 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:17:10,589 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:17:16,838 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:17:16,840 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:17:16,879 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:17:16,880 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:17:22,404 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:17:22,407 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:17:22,437 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:17:22,437 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:17:27,831 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:17:27,834 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:17:27,841 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:17:27,851 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 11:17:27,915 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:17:27,917 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 11:17:27,919 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 11:17:27,919 [INFO] main: Log level: INFO
+2025-09-06 11:18:13,424 [INFO] api.candidate: Received resume upload: -Computer Engineering Student Resume.pdf
+2025-09-06 11:18:16,622 [INFO] api.candidate: Successfully extracted text from resume: 22314 characters
+2025-09-06 11:18:16,626 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:18:16,626 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:18:21,820 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:18:21,822 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:18:22,096 [INFO] api.candidate: Generated embedding: 384 dimensions
+2025-09-06 11:18:22,098 [INFO] api.candidate: Stored candidate profile with id: 68bbcb262bede88dda3b9229
+2025-09-06 11:20:43,050 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 11:20:43,053 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 11:20:43,054 [INFO] main: MongoDB connection closed
+2025-09-06 11:23:24,903 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:23:24,910 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:23:38,058 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:23:38,059 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:23:43,755 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:23:43,757 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:23:43,822 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:23:43,822 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:23:49,373 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:23:49,375 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:23:49,408 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:23:49,408 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:23:55,200 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:23:55,202 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:23:55,209 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:23:55,222 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 11:23:56,519 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:23:56,526 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:24:08,211 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:24:08,211 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:24:14,343 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:24:14,346 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:24:14,383 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:24:14,383 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:24:19,081 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:24:19,084 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:24:19,111 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:24:19,111 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:24:24,394 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:24:24,396 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:24:24,404 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:24:24,414 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 11:24:24,525 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:24:24,529 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 11:24:24,530 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 11:24:24,531 [INFO] main: Log level: INFO
+2025-09-06 11:24:54,353 [INFO] api.candidate: Received resume upload: deedy-resume-reversed.pdf
+2025-09-06 11:24:54,752 [INFO] api.candidate: Successfully extracted text from resume: 2654 characters
+2025-09-06 11:24:54,755 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:24:54,755 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:25:00,494 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:25:00,498 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:25:00,775 [INFO] api.candidate: Generated embedding: 384 dimensions
+2025-09-06 11:25:00,777 [INFO] api.candidate: Stored candidate profile with id: 68bbccb41a99f58ae4fcf024
+2025-09-06 11:26:42,642 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:26:42,642 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:26:48,159 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:26:48,162 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:26:48,162 [ERROR] api.recruiter: Failed to post job: 'AdvancedLMWrapper' object has no attribute 'getEmbeddings'
+Traceback (most recent call last):
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\recruiter.py", line 46, in post_job
+    embedding = llm.getEmbeddings(combined_text)
+AttributeError: 'AdvancedLMWrapper' object has no attribute 'getEmbeddings'. Did you mean: 'get_embeddings'?
+2025-09-06 11:30:53,457 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 11:30:53,460 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 11:30:53,460 [INFO] main: MongoDB connection closed
+2025-09-06 11:30:56,377 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:30:56,386 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:31:09,705 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:31:09,705 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:31:16,836 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:31:16,839 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:31:16,880 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:31:16,881 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:31:22,521 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:31:22,524 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:31:22,580 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:31:22,580 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:31:28,573 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:31:28,576 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:31:28,584 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:31:28,596 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 11:31:28,658 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:31:28,662 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 11:31:28,664 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 11:31:28,664 [INFO] main: Log level: INFO
+2025-09-06 11:39:35,345 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 11:39:35,347 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 11:39:35,347 [INFO] main: MongoDB connection closed
+2025-09-06 11:39:39,493 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:39:39,498 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:39:42,895 [INFO] torch._subclasses.fake_tensor: FakeTensor cache stats:
+2025-09-06 11:39:42,895 [INFO] torch._subclasses.fake_tensor:   cache_hits: 0
+2025-09-06 11:39:42,896 [INFO] torch._subclasses.fake_tensor:   cache_misses: 0
+2025-09-06 11:39:45,199 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:39:45,206 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:39:57,260 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:39:57,260 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:40:03,560 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:40:03,563 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:40:03,624 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:40:03,625 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:40:09,233 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:40:09,236 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:40:09,289 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:40:09,290 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:40:14,859 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:40:14,863 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:40:14,869 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:40:14,879 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 11:40:14,941 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:40:14,943 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 11:40:14,945 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 11:40:14,945 [INFO] main: Log level: INFO
+2025-09-06 11:47:10,315 [INFO] api.candidate: Received resume upload: deedy-resume-reversed.pdf
+2025-09-06 11:47:10,825 [INFO] api.candidate: Successfully extracted text from resume: 2654 characters
+2025-09-06 11:47:10,829 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:47:10,829 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:47:16,986 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:47:16,990 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:47:17,459 [INFO] api.candidate: Generated embedding: 384 dimensions
+2025-09-06 11:47:17,462 [INFO] api.candidate: Stored candidate profile with id: 68bbd1edf617b5da9b422e32
+2025-09-06 11:47:17,464 [ERROR] api.candidate: Resume upload failed: AdvancedMatcher.rank_matches() takes from 3 to 4 positional arguments but 5 were given
+2025-09-06 11:47:17,465 [ERROR] api.candidate: Traceback (most recent call last):
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\candidate.py", line 87, in upload_resume
+    matches = matcher.rank_candidate_to_jobs(candidate_data, job_dicts)
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\services\matcher.py", line 256, in rank_candidate_to_jobs
+    return self.rank_matches(candidate, jobs, "candidate_to_jobs", top_n)
+TypeError: AdvancedMatcher.rank_matches() takes from 3 to 4 positional arguments but 5 were given
+
+2025-09-06 11:52:20,754 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 11:52:20,760 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 11:52:20,760 [INFO] main: MongoDB connection closed
+2025-09-06 11:55:54,393 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:55:54,401 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:56:06,827 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:56:06,828 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:56:12,539 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:56:12,542 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:56:12,607 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:56:12,608 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:56:18,603 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:56:18,606 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:56:18,639 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:56:18,640 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:56:24,192 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:56:24,194 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:56:24,202 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:56:24,215 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 11:56:25,605 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 11:56:25,617 [INFO] db.mongo: Database indexes ensured
+2025-09-06 11:56:37,476 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:56:37,477 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:56:43,425 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:56:43,427 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:56:43,468 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:56:43,468 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:56:48,928 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:56:48,930 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:56:48,961 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:56:48,962 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:56:54,748 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:56:54,750 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:56:54,757 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:56:54,771 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 11:56:54,831 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 11:56:54,834 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 11:56:54,836 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 11:56:54,836 [INFO] main: Log level: INFO
+2025-09-06 11:57:29,102 [INFO] api.candidate: Received resume upload: deedy-resume-reversed.pdf
+2025-09-06 11:57:29,508 [INFO] api.candidate: Successfully extracted text from resume: 2654 characters
+2025-09-06 11:57:29,510 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:57:29,510 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:57:36,349 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:57:36,352 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:57:36,620 [INFO] api.candidate: Generated embedding: 384 dimensions
+2025-09-06 11:57:36,622 [INFO] api.candidate: Stored candidate profile with id: 68bbd458f9f3ba019899c487
+2025-09-06 11:58:45,749 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 11:58:45,750 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 11:58:51,872 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 11:58:51,875 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 11:58:51,908 [INFO] api.recruiter: Posted new job with id: string
+2025-09-06 11:59:10,950 [ERROR] main: Unhandled exception: '_id'
+Traceback (most recent call last):
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\gzip.py", line 29, in __call__
+    await responder(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\gzip.py", line 130, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\gzip.py", line 46, in __call__
+    await self.app(scope, receive, self.send_with_compression)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\starlette\routing.py", line 75, in app
+    response = await f(request)
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\fastapi\routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\SRIJITH\AppData\Roaming\Python\Python310\site-packages\fastapi\routing.py", line 213, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\recruiter.py", line 94, in jobs_overview
+    "jobs": [doc_to_dict(j) for j in jobs]
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\recruiter.py", line 94, in <listcomp>
+    "jobs": [doc_to_dict(j) for j in jobs]
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\db\mongo.py", line 455, in doc_to_dict
+    return mongo_client._prepare_document(doc) if doc else None
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\db\mongo.py", line 374, in _prepare_document
+    doc["id"] = str(doc["_id"])
+KeyError: '_id'
+2025-09-06 12:01:44,246 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 12:01:44,248 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 12:01:44,249 [INFO] main: MongoDB connection closed
+2025-09-06 12:17:22,357 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 12:17:22,363 [INFO] db.mongo: Database indexes ensured
+2025-09-06 12:17:34,434 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:17:34,435 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:17:41,012 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:17:41,015 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:17:41,066 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:17:41,066 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:17:46,567 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:17:46,570 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:17:46,579 [ERROR] __main__: Failed to load API routers: cannot import name 'get_match_stats' from 'db.mongo' (C:\Users\SRIJITH\Downloads\update\ProjectRoot\db\mongo.py)
+2025-09-06 12:17:46,593 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 12:17:48,004 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 12:17:48,011 [INFO] db.mongo: Database indexes ensured
+2025-09-06 12:18:02,791 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:18:02,791 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:18:08,977 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:18:08,980 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:18:09,038 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:18:09,038 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:18:15,074 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:18:15,077 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:18:15,083 [ERROR] __mp_main__: Failed to load API routers: cannot import name 'get_match_stats' from 'db.mongo' (C:\Users\SRIJITH\Downloads\update\ProjectRoot\db\mongo.py)
+2025-09-06 12:18:15,097 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 12:18:15,185 [ERROR] main: Failed to load API routers: cannot import name 'get_match_stats' from 'db.mongo' (C:\Users\SRIJITH\Downloads\update\ProjectRoot\db\mongo.py)
+2025-09-06 12:18:15,188 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 12:18:15,192 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 12:18:15,192 [INFO] main: Log level: INFO
+2025-09-06 12:20:00,918 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 12:20:00,920 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 12:20:00,921 [INFO] main: MongoDB connection closed
+2025-09-06 12:25:38,648 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 12:25:38,654 [INFO] db.mongo: Database indexes ensured
+2025-09-06 12:25:50,439 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:25:50,439 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:25:56,805 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:25:56,808 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:25:56,858 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:25:56,858 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:26:02,889 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:26:02,892 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:26:02,943 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:26:02,943 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:26:08,694 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:26:08,697 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:26:08,704 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:26:08,721 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 12:26:10,004 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 12:26:10,012 [INFO] db.mongo: Database indexes ensured
+2025-09-06 12:26:21,694 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:26:21,695 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:26:27,622 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:26:27,624 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:26:27,664 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:26:27,664 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:26:33,271 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:26:33,274 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:26:33,301 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:26:33,301 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:26:39,736 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:26:39,738 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:26:39,746 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:26:39,757 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 12:26:39,815 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:26:39,817 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 12:26:39,819 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 12:26:39,819 [INFO] main: Log level: INFO
+2025-09-06 12:27:08,340 [INFO] api.candidate: Received resume upload: deedy-resume-reversed.pdf
+2025-09-06 12:27:08,737 [INFO] api.candidate: Successfully extracted text from resume: 2654 characters
+2025-09-06 12:27:08,739 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:27:08,740 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:27:14,389 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:27:14,392 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:27:14,659 [INFO] api.candidate: Generated embedding: 384 dimensions
+2025-09-06 12:27:14,660 [INFO] api.candidate: Stored candidate profile with id: 68bbdb4a153de471f21fbb38
+2025-09-06 12:27:25,550 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Expecting ',' delimiter: line 6 column 435 (char 1684)
+2025-09-06 12:33:39,832 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 12:33:39,834 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 12:33:39,835 [INFO] main: MongoDB connection closed
+2025-09-06 12:34:46,513 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 12:34:46,520 [INFO] db.mongo: Database indexes ensured
+2025-09-06 12:34:58,558 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:34:58,559 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:35:04,509 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:35:04,512 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:35:04,550 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:35:04,550 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:35:21,703 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:35:21,705 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:35:21,740 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:35:21,741 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:35:30,922 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:35:30,924 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:35:30,932 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:35:30,948 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 12:35:32,221 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 12:35:32,228 [INFO] db.mongo: Database indexes ensured
+2025-09-06 12:35:43,920 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:35:43,920 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:35:50,428 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:35:50,430 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:35:50,476 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:35:50,477 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:35:56,395 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:35:56,397 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:35:56,428 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:35:56,428 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:36:01,984 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:36:01,987 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:36:01,994 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:36:02,006 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 12:36:02,063 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:36:02,065 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 12:36:02,067 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 12:36:02,067 [INFO] main: Log level: INFO
+2025-09-06 12:36:31,416 [INFO] api.candidate: Received resume upload: deedy-resume-reversed.pdf
+2025-09-06 12:36:31,817 [INFO] api.candidate: Successfully extracted text from resume: 2654 characters
+2025-09-06 12:36:31,820 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:36:31,821 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:36:38,302 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:36:38,305 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:36:38,573 [INFO] api.candidate: Generated embedding: 384 dimensions
+2025-09-06 12:36:38,575 [INFO] api.candidate: Stored candidate profile with id: 68bbdd7eac95c31c0120cc03
+2025-09-06 12:36:45,359 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Extra data: line 6 column 235 (char 907)
+2025-09-06 12:36:45,360 [WARNING] services.llm_wrapper: Raw response: {
+    "strengths": ["John Doe's experience in Scrum, C++, Python, Machine Learning, Go, Java, Computer Vision, Data Analysis, and Angular is a significant strength for this job position."],
+    "weaknesses": ["Although John has experience with AWS, it may not be directly applicable to this specific job position."],
+    "skill_gaps": ["John might need to enhance his understanding of Deep Learning or improve his JavaScript skills to fully match the required skills for this job position"],
+    "cul...
+2025-09-06 12:41:30,132 [ERROR] api.recruiter: Failed to post job: module 'datetime' has no attribute 'utcnow'
+Traceback (most recent call last):
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\recruiter.py", line 49, in post_job
+    job_data.setdefault('created_at', datetime.utcnow())
+AttributeError: module 'datetime' has no attribute 'utcnow'
+2025-09-06 12:44:00,072 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 12:44:00,076 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 12:44:00,076 [INFO] main: MongoDB connection closed
+2025-09-06 12:49:36,692 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 12:49:36,698 [INFO] db.mongo: Database indexes ensured
+2025-09-06 12:49:48,521 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:49:48,522 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:49:54,984 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:49:54,986 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:49:55,030 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:49:55,030 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:50:00,611 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:50:00,613 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:50:00,668 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:50:00,669 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:50:06,323 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:50:06,325 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:50:06,332 [INFO] __main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:50:06,341 [INFO] __main__: Analytics and Health routers loaded successfully
+2025-09-06 12:50:07,682 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 12:50:07,689 [INFO] db.mongo: Database indexes ensured
+2025-09-06 12:50:19,549 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:50:19,550 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:50:25,871 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:50:25,873 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:50:25,917 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:50:25,918 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:50:31,388 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:50:31,391 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:50:31,430 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:50:31,431 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:50:36,882 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:50:36,884 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:50:36,891 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:50:36,898 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 12:50:36,959 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:50:36,962 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 12:50:36,964 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 12:50:36,964 [INFO] main: Log level: INFO
+2025-09-06 12:51:20,062 [INFO] api.candidate: Received resume upload: deedy-resume-reversed.pdf
+2025-09-06 12:51:20,456 [INFO] api.candidate: Successfully extracted text from resume: 2654 characters
+2025-09-06 12:51:20,459 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:51:20,460 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:51:26,193 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:51:26,196 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:51:26,549 [INFO] api.candidate: Generated embedding: 384 dimensions
+2025-09-06 12:51:26,551 [INFO] api.candidate: Stored candidate profile with id: 68bbe0f67283beba5ebe8896
+2025-09-06 12:51:37,271 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Expecting value: line 2 column 298 (char 299)
+2025-09-06 12:51:37,271 [WARNING] services.llm_wrapper: Raw response: {
+    "strengths": ["John Doe's strong technical skills in various domains such as AWS, Angular, Java, JavaScript, Scrum, Deep Learning, Data Analysis, Computer Vision, C++, Machine Learning, Go, and Python. This diverse skill set demonstrates his adaptability and proficiency in multiple fields.", ],
+    "weaknesses": ["While John Doe has an impressive list of skills, some gaps were observed during the analysis. These include a lack of experience with DevOps tools and methodologies, limited know...
+2025-09-06 12:52:54,351 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:52:54,351 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:52:59,997 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:53:00,000 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:53:00,001 [ERROR] api.recruiter: Failed to post job: 'AdvancedLMWrapper' object has no attribute 'getEmbeddings'
+Traceback (most recent call last):
+  File "C:\Users\SRIJITH\Downloads\update\ProjectRoot\api\recruiter.py", line 57, in post_job
+    embedding = llm.getEmbeddings(combined_text)
+AttributeError: 'AdvancedLMWrapper' object has no attribute 'getEmbeddings'. Did you mean: 'get_embeddings'?
+2025-09-06 12:55:47,124 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 12:55:47,127 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 12:55:47,127 [INFO] main: MongoDB connection closed
+2025-09-06 12:55:51,746 [INFO] db.mongo: MongoDB connection established successfully
+2025-09-06 12:55:51,759 [INFO] db.mongo: Database indexes ensured
+2025-09-06 12:56:04,558 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:56:04,558 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:56:11,578 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:56:11,581 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:56:11,620 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:56:11,621 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:56:16,987 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:56:16,991 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:56:17,029 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:56:17,029 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:56:22,809 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:56:22,812 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:56:22,819 [INFO] __mp_main__: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:56:22,829 [INFO] __mp_main__: Analytics and Health routers loaded successfully
+2025-09-06 12:56:22,894 [INFO] main: Candidate and Recruiter routers loaded successfully
+2025-09-06 12:56:22,896 [INFO] main: Analytics and Health routers loaded successfully
+2025-09-06 12:56:22,898 [INFO] main: Starting ResuMatch AI Server...
+2025-09-06 12:56:22,898 [INFO] main: Log level: INFO
+2025-09-06 12:57:07,509 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 12:57:07,509 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 12:57:12,881 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 12:57:12,884 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 12:57:13,160 [INFO] api.recruiter: Posted new job with id: 68bbe251fd89e64f1cd2c42e
+2025-09-06 12:57:52,961 [ERROR] db.mongo: Failed to get match stats: 'int' object has no attribute 'db'
+2025-09-06 12:58:10,299 [ERROR] api.analytics: Candidate stats failed: type NoneType doesn't define __round__ method
+2025-09-06 13:00:26,324 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Extra data: line 7 column 381 (char 1194)
+2025-09-06 13:00:26,325 [WARNING] services.llm_wrapper: Raw response: {
+    "strengths": ["Strength 1", "Strength 2", "Strength 3"],
+    "weaknesses": ["Weakness 1", "Weakness 2", "Weakness 3"],
+    "skill_gaps": ["Missing Skills"],
+    "cultural_fit": {
+        "analysis": "The cultural fit between the candidate and the job position is moderate. The candidate has experience with Python, SQL, Docker, and FastAPI, which are required skills for this Senior Python Developer role. However, their background in other technologies such as JavaScript, REST API, Express, J...
+2025-09-06 13:00:40,094 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Expecting value: line 2 column 188 (char 189)
+2025-09-06 13:00:40,095 [WARNING] services.llm_wrapper: Raw response: {
+    "strengths": ["John Doe's proficiency in Python, Go, C++, Data Analysis, Scrum, and AWS. These skills demonstrate his ability to work with different technologies and methodologies.", ],
+    "weaknesses": ["Lack of experience with FastAPI and SQL.",],
+    "skill_gaps": ["Missing skills: Deep Learning and Computer Vision."],
+    "cultural_fit": "Based on the provided candidate profile, it seems that John Doe would be a good cultural fit for this job. His experience in building scalable backe...
+2025-09-06 13:00:47,667 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Expecting value: line 2 column 259 (char 260)
+2025-09-06 13:00:47,668 [WARNING] services.llm_wrapper: Raw response: {
+    "strengths": ["John Doe is a highly skilled developer with expertise in various programming languages and technologies such as C++, Data Analysis, Angular, Scrum, Python, AWS, Java, Computer Vision, Machine Learning, Deep Learning, Go, and JavaScript.", ],
+    "weaknesses": ["While John has extensive experience in many areas, his knowledge of FastAPI and SQL is not mentioned explicitly in his resume. This could be a potential weakness during the interview process as these skills are requir...
+2025-09-06 13:00:55,723 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Extra data: line 5 column 267 (char 1057)
+2025-09-06 13:00:55,723 [WARNING] services.llm_wrapper: Raw response: {
+    "strengths": ["John Doe's proficiency in deep learning, machine learning, and computer vision is a significant strength. His experience with Java, Python, Angular, JavaScript, C++, Go, and AWS also highlights his technical versatility.", "His ability to work well under pressure and meet tight deadlines is another strength."],
+    "weaknesses": ["While John Doe has extensive experience in several programming languages and technologies, he lacks hands-on experience with FastAPI and SQL. This...
+2025-09-06 13:04:08,945 [INFO] api.candidate: Received resume upload: yuans-resume-template.pdf
+2025-09-06 13:04:09,151 [INFO] api.candidate: Successfully extracted text from resume: 1949 characters
+2025-09-06 13:04:09,155 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cuda:0
+2025-09-06 13:04:09,155 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-06 13:04:15,134 [INFO] services.llm_wrapper: Loaded embedding model: all-MiniLM-L6-v2
+2025-09-06 13:04:15,137 [INFO] services.llm_wrapper: Redis cache connected successfully
+2025-09-06 13:04:15,231 [INFO] api.candidate: Generated embedding: 384 dimensions
+2025-09-06 13:04:15,233 [INFO] api.candidate: Stored candidate profile with id: 68bbe3f7fd89e64f1cd2c42f
+2025-09-06 13:05:53,604 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Expecting value: line 2 column 184 (char 185)
+2025-09-06 13:05:53,605 [WARNING] services.llm_wrapper: Raw response: {
+    "strengths": ["John Doe's strong technical skills in Python, Go, C++, Data Analysis, Scrum, and Machine Learning. He also has experience with AWS, Angular, and Computer Vision.", ],
+    "weaknesses": ["Although John has a diverse skill set, his experience primarily lies in deep learning and computer vision rather than fast API development and SQL. This may limit his ability to fully contribute to the project requirements."],
+    "skill_gaps": ["Lack of experience with FastAPI and SQL.", ],...
+2025-09-06 13:06:03,100 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Expecting value: line 2 column 229 (char 230)
+2025-09-06 13:06:03,100 [WARNING] services.llm_wrapper: Raw response: {
+    "strengths": ["John Doe is a highly skilled developer with expertise in multiple programming languages and technologies such as C++, Python, AWS, Java, Computer Vision, Machine Learning, Deep Learning, Go, and JavaScript.", ],
+    "weaknesses": ["While John has extensive experience in many areas, he lacks hands-on experience specifically in FastAPI and SQL which are required for this position. Additionally, his lack of familiarity with Docker may be a concern during the onboarding process....
+2025-09-06 13:06:21,434 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Expecting value: line 2 column 267 (char 268)
+2025-09-06 13:06:21,434 [WARNING] services.llm_wrapper: Raw response: {
+    "strengths": ["John Doe's proficiency in Python, Deep Learning, and Machine Learning is a significant strength. His experience with Computer Vision, JavaScript, Angular, AWS, Go, and C++ also showcases his versatility and adaptability to various technologies.", ],
+    "weaknesses": ["While John has extensive experience with many technical skills, he lacks hands-on experience in FastAPI and SQL which are required for this position. Additionally, there might be a learning curve associated wi...
+2025-09-06 13:06:30,574 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Expecting ',' delimiter: line 7 column 173 (char 1933)
+2025-09-06 13:06:30,577 [WARNING] services.llm_wrapper: Raw response: {
+    "strengths": ["John Doe's experience in Python, Machine Learning, and Data Analysis are notable strengths. He also has a good grasp of other programming languages such as Scrum, C++, Go, Java, and JavaScript.", "His knowledge of AWS is another strength that could be beneficial for the company."],
+    "weaknesses": ["John Doe's lack of experience with FastAPI and SQL may hinder his performance in this role. Additionally, he might need more time to adapt to the fast-paced environment require...
+2025-09-06 13:06:40,928 [WARNING] services.llm_wrapper: Failed to parse LLM response as JSON: Expecting value: line 1 column 1 (char 0)
+2025-09-06 13:06:40,929 [WARNING] services.llm_wrapper: Raw response: Analyzing the match between John Doe, a candidate with diverse technical skills, and the Senior Python Developer job position at an unnamed company requires evaluating various aspects. The provided JSON format will be used to present the analysis in a structured manner.
+
+CANDIDATE PROFILE ANALYSIS:
+Strengths:
+1. Diverse skill set across multiple domains such as AWS, Angular, Java, JavaScript, Scrum, Deep Learning, Data Analysis, Computer Vision, C++, Machine Learning, Go, and Python. This indica...
+2025-09-06 13:15:31,475 [INFO] main: Shutting down ResuMatch AI Server...
+2025-09-06 13:15:31,477 [INFO] db.mongo: MongoDB connection closed
+2025-09-06 13:15:31,477 [INFO] main: MongoDB connection closed
