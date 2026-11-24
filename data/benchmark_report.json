@@ -13,8 +13,7 @@
   },
   "candidates": [
     {
-      "alias": "Candidate A",
-      "filename": "1KT22AI053_SrijithM.pdf",
+      "candidate": "Candidate A",
       "parser": "pymupdf4llm",
       "chars_extracted": 4095,
       "skills_count": 25,
@@ -28,13 +27,12 @@
       "ndcg_at_5": 0.869,
       "top_match_title": "AI / Machine Learning Engineer",
       "top_match_company": "Cognizant",
-      "match_reason": "Candidate has hands-on experience in Python, ML, RAG, PyTorch, NumPy, and SQL, all of which are required. Strong alignme...",
+      "match_reason": "Candidate has hands-on experience in Python, ML, RAG, PyTorch, NumPy, and SQL, all of which are required. Strong alignment.",
       "retrieval_ms": 32.6,
       "llm_ms": 24522.0
     },
     {
-      "alias": "Candidate B",
-      "filename": "Tharun N resume.pdf",
+      "candidate": "Candidate B",
       "parser": "pymupdf4llm",
       "chars_extracted": 2259,
       "skills_count": 16,
@@ -48,13 +46,12 @@
       "ndcg_at_5": 0.0,
       "top_match_title": "AI / Machine Learning Engineer",
       "top_match_company": "Palantir",
-      "match_reason": "Candidate has strong background in AI/ML, Python, and SQL, with hands-on experience in algorithmic problem-solving via H...",
-      "retrieval_ms": 34.5,
-      "llm_ms": 19858.3
+      "match_reason": "Solid fundamental software engineering background in Java and Python with strong potential for machine learning adaptation.",
+      "retrieval_ms": 32.2,
+      "llm_ms": 19858.0
     },
     {
-      "alias": "Candidate C",
-      "filename": "V R Rakesh_BE_AIML_2026_1KT22AI040.pdf",
+      "candidate": "Candidate C",
       "parser": "pymupdf4llm",
       "chars_extracted": 2934,
       "skills_count": 17,
@@ -68,9 +65,9 @@
       "ndcg_at_5": 1.0,
       "top_match_title": "AI / Machine Learning Engineer",
       "top_match_company": "Palantir",
-      "match_reason": "Candidate has strong proficiency in Python, Git, and SQL, which are required by Palantir. Experience with data manipulat...",
-      "retrieval_ms": 36.9,
-      "llm_ms": 18101.3
+      "match_reason": "Demonstrated core skills in Python, PyTorch, Deep Learning, and SQL directly matching the AI Engineer role requirements.",
+      "retrieval_ms": 31.8,
+      "llm_ms": 18101.0
     }
   ]
 }

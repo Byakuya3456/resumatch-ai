@@ -33,7 +33,7 @@ Candidate C     | pymupdf4llm  | 63.3  %  | 100.0   %  | 100.0 %  | 90.0    %  |
 ===================================================================================================================
 ```
 
-### 1. Candidate A (`1KT22AI053_...pdf`)
+### 1. Candidate A
 * **Focus Profile:** AI / Machine Learning & Cloud DevOps
 * **Text Extracted:** 4,095 characters in clean Markdown
 * **Skills Detected:** 25 skills (Docker, Flask, GCP, Git, Go, Python, Machine Learning, Agile, Bash, etc.)
@@ -46,7 +46,7 @@ Candidate C     | pymupdf4llm  | 63.3  %  | 100.0   %  | 100.0 %  | 90.0    %  |
 
 ---
 
-### 2. Candidate C (`V R Rakesh_...pdf`)
+### 2. Candidate C
 * **Focus Profile:** AI / Data Science & Deep Learning
 * **Text Extracted:** 2,934 characters
 * **Skills Detected:** 17 skills (Python, PyTorch, Machine Learning, Deep Learning, SQL, Pandas, etc.)
@@ -60,7 +60,7 @@ Candidate C     | pymupdf4llm  | 63.3  %  | 100.0   %  | 100.0 %  | 90.0    %  |
 
 ---
 
-### 3. Candidate B (`Tharun N ...pdf`)
+### 3. Candidate B
 * **Focus Profile:** Full Stack / Software Development
 * **Text Extracted:** 2,259 characters
 * **Skills Detected:** 16 skills (Java, Python, React, JavaScript, SQL, Git, etc.)

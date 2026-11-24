@@ -248,8 +248,7 @@ def run_benchmark():
         print(f"   ✓ LLM Match Score: {llm_match_score}% (Reasoning Latency: {llm_ms:.0f}ms)\n")
 
         record = {
-            "alias": alias,
-            "filename": filename,
+            "candidate": alias,
             "parser": method,
             "chars_extracted": len(text),
             "skills_count": len(resume_data.get("skills", [])),
@@ -275,7 +274,7 @@ def run_benchmark():
     print("=" * 115)
     for r in benchmark_results:
         top_str = f"{r['top_match_title']} ({r['top_match_company']})"[:28]
-        print(f"{r['alias']:<15} | {r['parser']:<12} | {r['parsing_score']:<7.1f}% | {r['retrieval_score']:<9.1f}% | {r['ranking_score']:<7.1f}% | {r['llm_matching_score']:<9.1f}% | {r['mrr']:<5.2f} | {r['ndcg_at_5']:<6.2f} | {top_str}")
+        print(f"{r['candidate']:<15} | {r['parser']:<12} | {r['parsing_score']:<7.1f}% | {r['retrieval_score']:<9.1f}% | {r['ranking_score']:<7.1f}% | {r['llm_matching_score']:<9.1f}% | {r['mrr']:<5.2f} | {r['ndcg_at_5']:<6.2f} | {top_str}")
     print("=" * 115)
 
     # Calculate overall averages
