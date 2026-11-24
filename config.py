@@ -17,7 +17,13 @@ class Config:
     ALLOWED_EXTENSIONS: set = {"pdf", "docx"}
     MAX_CONTENT_LENGTH: int = 10 * 1024 * 1024  # 10 MB upload cap
 
-    # ── MongoDB ────────────────────────────────────────────
+    # ── Database ───────────────────────────────────────────
+    # Primary: PostgreSQL + pgvector (Phase 2 target)
+    DATABASE_URL: str = os.getenv(
+        "DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/jobmatcher"
+    )
+
+    # Secondary / Legacy: MongoDB
     MONGODB_URI: str = os.getenv("MONGODB_URI", "mongodb://localhost:27017/")
     MONGO_TIMEOUT_MS: int = 5000
     RESUME_DB: str = "user_resumes"

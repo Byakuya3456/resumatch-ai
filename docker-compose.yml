@@ -9,6 +9,7 @@ services:
     environment:
       - PORT=5000
       - FLASK_DEBUG=0
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/jobmatcher
       - MONGODB_URI=mongodb://mongodb:27017/
       - OLLAMA_URL=http://ollama:11434
       - OLLAMA_MODEL=llama3.2:3b
@@ -18,6 +19,8 @@ services:
     volumes:
       - api_uploads:/app/uploads
     depends_on:
+      postgres:
+        condition: service_healthy
       mongodb:
         condition: service_healthy
       qdrant:
@@ -31,7 +34,30 @@ services:
       retries: 3
       start_period: 20s
 
-  # ── 2. MongoDB Database Service ───────────────────────────
+  # ── 2. PostgreSQL + pgvector Database ─────────────────────
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: jobmatcher_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: jobmatcher
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./migrations:/docker-entrypoint-initdb.d
+    networks:
+      - jobmatcher_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  # ── 3. MongoDB Database Service (Legacy / Hybrid) ─────────
   mongodb:
     image: mongo:7.0
     container_name: jobmatcher_mongodb
@@ -90,6 +116,7 @@ services:
       - jobmatcher_network
 
 volumes:
+  pgdata:
   mongo_data:
   qdrant_storage:
   ollama_models:
