@@ -1,0 +1,69 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.spec
+
+# ── Virtual environment ───────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Environment & secrets ─────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Uploads (user files, never commit) ───────────────────
+uploads/
+
+# ── Vector / local DB files ───────────────────────────────
+chroma_db/
+qdrant_data/
+
+# ── ML model cache ────────────────────────────────────────
+# sentence-transformers / huggingface cache
+.cache/
+models/
+*.bin
+*.safetensors
+*.pt
+*.onnx
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Test artefacts ────────────────────────────────────────
+test_resumes/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# ── Docker volumes (if mounted locally) ──────────────────
+pgdata/
+redis_data/
+ollama_models/
