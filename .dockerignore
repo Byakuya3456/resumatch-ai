@@ -1,0 +1,20 @@
+# .dockerignore
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+.git/
+.gitignore
+venv/
+.venv/
+.env
+uploads/*
+chroma_db/
+qdrant_data/
+test_resumes/
+.ipynb_checkpoints/
+*.ipynb
+pgdata/
+redis_data/
+ollama_models/
