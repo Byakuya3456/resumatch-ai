@@ -43,7 +43,7 @@ class Config:
     OLLAMA_BASE_URL: str = os.getenv("OLLAMA_URL", "http://localhost:11434")
     OLLAMA_GENERATE_ENDPOINT: str = f"{OLLAMA_BASE_URL}/api/generate"
     # Upgraded from llama3.2:3b (poor JSON) to llama3.1:8b (reliable JSON)
-    OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "llama3.2:3b")
+    OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:Q4_K_M")
     OLLAMA_TIMEOUT: int = int(os.getenv("OLLAMA_TIMEOUT", "120"))
 
     # ── RAG & Hybrid Search ────────────────────────────────
