@@ -85,16 +85,53 @@ Make sure [Docker Desktop](https://www.docker.com/products/docker-desktop/) is i
    ```bash
    cp .env.example .env
    ```
+   Choose your LLM mode in `.env`:
+   - **Cloud API (No GPU required)**:
+     ```ini
+     LLM_PROVIDER=openrouter
+     LLM_API_KEY=sk-or-v1-your-key-here
+     LLM_MODEL=deepseek/deepseek-chat
+     ```
+   - **Local Ollama**:
+     ```ini
+     LLM_PROVIDER=ollama
+     OLLAMA_MODEL=hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:Q4_K_M
+     ```
 
-3. **Start the complete stack**:
-   ```bash
-   docker compose up -d --build
-   ```
+3. **Start the stack**:
+   - **Full stack with containerized Ollama**:
+     ```bash
+     docker compose up -d --build
+     ```
+   - **Lightweight stack using Cloud LLM or Host Ollama** *(skips downloading multi-gigabyte models into Docker)*:
+     ```bash
+     docker compose up -d --build api postgres mongodb qdrant nginx
+     ```
 
 4. **Access the application**:
    - API Service Catalog: [http://localhost](http://localhost)
    - API Healthcheck: [http://localhost/health](http://localhost/health)
    - Qdrant Dashboard: [http://localhost:6333/dashboard](http://localhost:6333/dashboard)
+
+#### 🐳 Docker LLM Configuration Patterns
+
+- **CLI Inline Injection**:
+  ```bash
+  # OpenRouter
+  LLM_PROVIDER=openrouter LLM_API_KEY="sk-or-..." LLM_MODEL="deepseek/deepseek-chat" docker compose up -d
+  # Groq (Ultra-fast)
+  LLM_PROVIDER=groq LLM_API_KEY="gsk_..." LLM_MODEL="llama-3.3-70b-versatile" docker compose up -d
+  # OpenAI
+  LLM_PROVIDER=openai LLM_API_KEY="sk-..." LLM_MODEL="gpt-4o-mini" docker compose up -d
+  ```
+
+- **Connecting to Host Machine Ollama (`localhost:11434`)**:
+  In `.env`:
+  ```ini
+  LLM_PROVIDER=ollama
+  OLLAMA_URL=http://host.docker.internal:11434
+  ```
+  Then run `docker compose up -d api postgres mongodb qdrant nginx`.
 
 ---
 
