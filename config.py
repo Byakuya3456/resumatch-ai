@@ -39,12 +39,39 @@ class Config:
     )
     EMBEDDING_FALLBACK: str = "all-MiniLM-L6-v2"
 
-    # ── Ollama ─────────────────────────────────────────────
+    # ── LLM Configuration (Local Ollama vs External Cloud API) ────
+    # Supported providers: "ollama", "openai", "openrouter", "groq", "deepseek", "custom"
+    LLM_PROVIDER: str = os.getenv("LLM_PROVIDER", "ollama").lower().strip()
+    LLM_API_KEY: str | None = (
+        os.getenv("LLM_API_KEY")
+        or os.getenv("OPENAI_API_KEY")
+        or os.getenv("OPENROUTER_API_KEY")
+        or os.getenv("GROQ_API_KEY")
+        or os.getenv("DEEPSEEK_API_KEY")
+    )
+
+    # Provider-specific default base URLs for OpenAI-compatible endpoints
+    _PROVIDER_URLS = {
+        "openai": "https://api.openai.com/v1",
+        "openrouter": "https://openrouter.ai/api/v1",
+        "groq": "https://api.groq.com/openai/v1",
+        "deepseek": "https://api.deepseek.com/v1",
+    }
+
+    LLM_BASE_URL: str = os.getenv(
+        "LLM_BASE_URL",
+        _PROVIDER_URLS.get(LLM_PROVIDER, "https://api.openai.com/v1"),
+    )
+
+    # Ollama local settings (when LLM_PROVIDER == "ollama")
     OLLAMA_BASE_URL: str = os.getenv("OLLAMA_URL", "http://localhost:11434")
     OLLAMA_GENERATE_ENDPOINT: str = f"{OLLAMA_BASE_URL}/api/generate"
-    # Upgraded from llama3.2:3b (poor JSON) to llama3.1:8b (reliable JSON)
     OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "hf.co/unsloth/Qwen3-4B-Instruct-2507-GGUF:Q4_K_M")
     OLLAMA_TIMEOUT: int = int(os.getenv("OLLAMA_TIMEOUT", "120"))
+
+    # Unified active model name and request timeout
+    ACTIVE_LLM_MODEL: str = os.getenv("LLM_MODEL") or OLLAMA_MODEL
+    LLM_TIMEOUT: int = int(os.getenv("LLM_TIMEOUT", str(OLLAMA_TIMEOUT)))
 
     # ── RAG & Hybrid Search ────────────────────────────────
     RAG_TOP_K: int = int(os.getenv("RAG_TOP_K", "15"))

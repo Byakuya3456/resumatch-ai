@@ -53,6 +53,11 @@ models/
 Thumbs.db
 desktop.ini
 
+# ── Project Working Summary (Private Docs) ────────────────
+PROJECT_WORKFLOW_SUMMARY.md
+PROJECT_SUMMARY.md
+summary.txt
+
 # ── Logs ──────────────────────────────────────────────────
 *.log
 logs/

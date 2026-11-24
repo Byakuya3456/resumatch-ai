@@ -111,14 +111,23 @@ Make sure [Docker Desktop](https://www.docker.com/products/docker-desktop/) is i
    ```
    *The launcher will verify virtual environment dependencies, ensure MongoDB and Ollama services are up, and start the headless API gateway.*
 
-3. **Manual Setup (Alternative)**:
-   ```bash
-   python -m venv venv
-   .\venv\Scripts\activate
-   pip install -r requirements.txt
-   python -m spacy download en_core_web_sm
-   python app.py
-   ```
+3. **Manual Setup**:
+   - **Using `uv` (Recommended - 10x faster)**:
+     ```bash
+     uv venv venv
+     .\venv\Scripts\activate
+     uv pip install -r requirements.txt
+     python -m spacy download en_core_web_sm
+     python app.py
+     ```
+   - **Using standard `pip`**:
+     ```bash
+     python -m venv venv
+     .\venv\Scripts\activate
+     pip install -r requirements.txt
+     python -m spacy download en_core_web_sm
+     python app.py
+     ```
 
 ---
 
@@ -126,6 +135,7 @@ Make sure [Docker Desktop](https://www.docker.com/products/docker-desktop/) is i
 
 ```text
 job_matcher/
+├── pyproject.toml            # Project specification and uv package configuration
 ├── config.py                 # Centralized environment configuration
 ├── app.py                    # Application factory and entry point (Pure JSON API)
 ├── Dockerfile                # Production non-root multi-stage Dockerfile
@@ -268,9 +278,13 @@ Returns live readiness status of all infrastructure components.
 | Variable | Default | Description |
 |---|---|---|
 | `PORT` | `5000` | Port for the backend API |
+| `LLM_PROVIDER` | `ollama` | Inference provider: `ollama`, `openai`, `openrouter`, `groq`, `deepseek`, or `custom` |
+| `LLM_API_KEY` | *(empty)* | API Key for cloud inference (`OPENAI_API_KEY`, `OPENROUTER_API_KEY`, `GROQ_API_KEY`, etc.) |
+| `LLM_BASE_URL` | *(auto)* | Custom base URL for external OpenAI-compatible endpoints |
+| `LLM_MODEL` | `Qwen3-4B-Instruct...` | Target model name (e.g. `gpt-4o-mini`, `deepseek-chat`, `llama-3.3-70b-versatile`) |
 | `MONGODB_URI` | `mongodb://localhost:27017/` | MongoDB connection URI |
-| `OLLAMA_URL` | `http://localhost:11434` | Ollama service endpoint |
-| `OLLAMA_MODEL` | `llama3.2:3b` | Target LLM model for match reasoning |
+| `OLLAMA_URL` | `http://localhost:11434` | Ollama service endpoint (when `LLM_PROVIDER=ollama`) |
+| `OLLAMA_MODEL` | `llama3.2:3b` | Target local Ollama model |
 | `EMBEDDING_MODEL` | `BAAI/bge-base-en-v1.5` | 768-dim embedding model for RAG |
 | `HYBRID_SEARCH_ENABLED` | `1` | Enable/Disable Dense + BM25 Hybrid Search |
 | `DENSE_SEARCH_WEIGHT` | `0.6` | Ratio of dense vector weight in RRF fusion (0.0 to 1.0) |

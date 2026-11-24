@@ -16,10 +16,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libmupdf-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Install python dependencies
-COPY requirements.txt .
-RUN pip install --upgrade pip && \
-    pip install -r requirements.txt
+# Install uv for high-speed package resolution and installation
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+# Install python dependencies with uv
+COPY requirements.txt pyproject.toml ./
+RUN uv pip install --system -r requirements.txt
 
 # Download spaCy English model into the image
 RUN python -m spacy download en_core_web_sm

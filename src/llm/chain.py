@@ -15,6 +15,7 @@ from typing import Any, List
 from pydantic import BaseModel, Field
 
 from config import config
+from src.llm.external_client import call_external_llm, extract_json_from_text
 
 logger = logging.getLogger(__name__)
 
@@ -139,7 +140,57 @@ def run_matching_chain(
         for j in relevant_jobs[:15]
     ]
 
-    if _chain and _parser:
+    is_external = (
+        config.LLM_PROVIDER in ("openai", "openrouter", "groq", "deepseek", "custom")
+        or (bool(config.LLM_API_KEY) and config.LLM_PROVIDER != "ollama")
+    )
+
+    # ── Path A: External Cloud LLM API (OpenAI / OpenRouter / Groq / DeepSeek / Custom)
+    if is_external:
+        try:
+            logger.info(
+                "Invoking external LLM provider '%s' (model: %s)...",
+                config.LLM_PROVIDER,
+                config.ACTIVE_LLM_MODEL,
+            )
+            format_schema = json.dumps(AnalysisResult.model_json_schema(), indent=2)
+            system_msg = (
+                "You are an expert technical recruiter and talent matching AI.\n"
+                "Analyze the candidate's resume strictly against the provided job opportunities.\n"
+                f"You MUST reply ONLY with a valid JSON object matching this schema:\n{format_schema}\n"
+                "Important Rules:\n"
+                "1. Only use jobs provided in the prompt. Do NOT hallucinate jobs.\n"
+                "2. Company names and job titles must match the job data exactly.\n"
+                "3. Ensure the output is strictly valid parseable JSON without commentary."
+            )
+            user_msg = (
+                f"RESUME:\n{resume_summary}\n\n"
+                f"AVAILABLE JOBS ({len(clean_jobs)} opportunities):\n{json.dumps(clean_jobs, indent=2)}\n\n"
+                f"Analyze and select up to {top_n} matches."
+            )
+
+            raw_resp = call_external_llm(
+                messages=[
+                    {"role": "system", "content": system_msg},
+                    {"role": "human", "content": user_msg},
+                ],
+                model=config.ACTIVE_LLM_MODEL,
+                json_mode=True,
+            )
+
+            if raw_resp:
+                parsed_json = extract_json_from_text(raw_resp)
+                if parsed_json:
+                    validated = AnalysisResult.model_validate(parsed_json)
+                    validated.matches = validated.matches[:top_n]
+                    return validated.model_dump()
+                else:
+                    logger.warning("Failed to extract JSON from external LLM response: %s", raw_resp[:200])
+        except Exception as exc:
+            logger.warning("External LLM execution failed: %s. Using fallback.", exc)
+
+    # ── Path B: Local Ollama Chain (LCEL)
+    elif _chain and _parser:
         try:
             logger.info("Invoking LangChain LCEL chain with %s...", config.OLLAMA_MODEL)
             response = _chain.invoke({

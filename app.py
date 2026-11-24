@@ -75,7 +75,8 @@ def create_app() -> Flask:
             },
             "configuration": {
                 "embedding_model": config.EMBEDDING_MODEL,
-                "llm_model": config.OLLAMA_MODEL,
+                "llm_provider": config.LLM_PROVIDER,
+                "llm_model": config.ACTIVE_LLM_MODEL,
                 "hybrid_search_enabled": config.HYBRID_SEARCH_ENABLED,
             },
         }), 200
@@ -89,7 +90,8 @@ if __name__ == "__main__":
     print("=" * 60)
     print(f"   API Listening   : http://localhost:{config.PORT}")
     print(f"   Embedding Model : {config.EMBEDDING_MODEL}")
-    print(f"   LLM Model       : {config.OLLAMA_MODEL}")
+    print(f"   LLM Provider    : {config.LLM_PROVIDER}")
+    print(f"   LLM Model       : {config.ACTIVE_LLM_MODEL}")
     print(f"   Debug Mode      : {config.DEBUG}")
     print("=" * 60)
 
