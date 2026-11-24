@@ -40,9 +40,13 @@ class Config:
     OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "llama3.2:3b")
     OLLAMA_TIMEOUT: int = int(os.getenv("OLLAMA_TIMEOUT", "120"))
 
-    # ── RAG ────────────────────────────────────────────────
+    # ── RAG & Hybrid Search ────────────────────────────────
     RAG_TOP_K: int = int(os.getenv("RAG_TOP_K", "15"))
     LLM_TOP_K: int = int(os.getenv("LLM_TOP_K", "5"))
+    HYBRID_SEARCH_ENABLED: bool = os.getenv("HYBRID_SEARCH_ENABLED", "1") == "1"
+    RRF_K: int = int(os.getenv("RRF_K", "60"))
+    DENSE_SEARCH_WEIGHT: float = float(os.getenv("DENSE_SEARCH_WEIGHT", "0.6"))
+    QDRANT_URL: str | None = os.getenv("QDRANT_URL", None)
 
     # ── Parsers ────────────────────────────────────────────
     # Maximum raw_text characters stored. 0 = unlimited (recommended).
