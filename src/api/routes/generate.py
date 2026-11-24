@@ -15,7 +15,7 @@ from flask import Blueprint, jsonify, request
 
 from config import config
 from src.db.mongo import resumes_collection
-from src.llm.ollama_client import call_ollama, generate_matches_prompt, parse_llm_response
+from src.llm import run_matching_chain, call_ollama, generate_matches_prompt, parse_llm_response
 from src.rag.simple_rag import get_relevant_jobs
 from src.utils.serializers import serialize_document
 
@@ -68,24 +68,24 @@ def generate_matches():
 
     logger.info("RAG returned %d candidate jobs", len(relevant_jobs))
 
-    # ── STEP 3: Build prompt ───────────────────────────────────────────
-    prompt = generate_matches_prompt(
-        resume_data=resume_data,
-        relevant_jobs=relevant_jobs,
-        top_n=config.LLM_TOP_K,
-    )
-
-    # ── STEP 4: Call LLM ──────────────────────────────────────────────
-    logger.info("Calling Ollama model: %s", config.OLLAMA_MODEL)
-    raw_response = call_ollama(prompt)
-
-    if raw_response is None:
-        logger.warning("Ollama unavailable — returning RAG fallback")
-        result = parse_llm_response("", relevant_jobs, top_n=config.LLM_TOP_K)
-        result["_warning"] = "LLM unavailable; results are RAG-ranked only."
+    # ── STEP 3: LangChain LCEL Analysis with Pydantic Guarantee ─────────
+    try:
+        result = run_matching_chain(
+            resume_data=resume_data,
+            relevant_jobs=relevant_jobs,
+            top_n=config.LLM_TOP_K,
+        )
+        logger.info("LangChain chain generated %d structured matches", len(result.get("matches", [])))
         return jsonify(result), 200
 
-    # ── STEP 5: Parse and return ───────────────────────────────────────
-    result = parse_llm_response(raw_response, relevant_jobs, top_n=config.LLM_TOP_K)
-    logger.info("Returning %d matches", len(result.get("matches", [])))
-    return jsonify(result), 200
+    except Exception as exc:
+        logger.warning("LangChain LCEL path encountered issue: %s. Using direct fallback.", exc)
+        # Fallback to direct prompt / parsing if needed
+        prompt = generate_matches_prompt(
+            resume_data=resume_data,
+            relevant_jobs=relevant_jobs,
+            top_n=config.LLM_TOP_K,
+        )
+        raw_response = call_ollama(prompt)
+        fallback_result = parse_llm_response(raw_response or "", relevant_jobs, top_n=config.LLM_TOP_K)
+        return jsonify(fallback_result), 200

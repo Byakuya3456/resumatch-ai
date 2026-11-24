@@ -32,15 +32,19 @@ python-docx>=1.1.0
 # Upgraded: BAAI/bge-base-en-v1.5 (768-dim) > all-MiniLM (384-dim)
 sentence-transformers>=3.0.0
 # spaCy: >=3.8.0 has pre-built wheels for Python 3.13
-# 3.7.2 fails to compile blis/thinc on Python 3.13
 spacy>=3.8.0
 numpy>=1.24.0
 scikit-learn>=1.3.0
 rank-bm25>=0.2.2           # Sparse BM25 retrieval for hybrid search
 qdrant-client>=1.9.0       # Production vector database client
+gliner>=0.2.9              # Zero-shot Named Entity Recognition for dynamic skills & certs
 
-# ── LLM ──────────────────────────────────────────────────
-requests>=2.31.0           # Ollama HTTP client (Phase 5: replace with LangChain)
+# ── LLM & Structured Output ──────────────────────────────
+requests>=2.31.0
+langchain>=0.3.0           # LangChain LCEL orchestration
+langchain-ollama>=0.2.0    # Direct ChatOllama integration
+langchain-core>=0.3.0
+pydantic>=2.8.0            # Schema validation for match output
 
 # ── Utilities ─────────────────────────────────────────────
 # bson is bundled with pymongo — no separate install needed

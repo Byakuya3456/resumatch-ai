@@ -12,6 +12,7 @@ from datetime import datetime
 from typing import Any
 
 from config import config
+from .gliner_extractor import extract_entities_zero_shot
 
 logger = logging.getLogger(__name__)
 
@@ -133,6 +134,12 @@ def extract_resume_data(text: str) -> dict[str, Any]:
     # Normalise to title-case for display
     found_skills = sorted(s.title() for s in found_skills)
 
+    # ── Zero-Shot Extraction via GLiNER (Degrees, Certs, Dynamic Skills) ──
+    gliner_res = extract_entities_zero_shot(text)
+    if gliner_res["skills"]:
+        # Merge taxonomy skills with dynamic zero-shot skills
+        found_skills = sorted(list(set(found_skills + gliner_res["skills"])))
+
     # ── Determine raw_text slice ───────────────────────────────────────
     max_chars = config.RAW_TEXT_MAX_CHARS
     raw_text_stored = text if max_chars == 0 else text[:max_chars]
@@ -144,9 +151,9 @@ def extract_resume_data(text: str) -> dict[str, Any]:
         "linkedin": f"linkedin.com/in/{linkedin_matches[0]}" if linkedin_matches else "",
         "github": f"github.com/{github_matches[0]}" if github_matches else "",
         "skills": found_skills,
-        "experience": list(dict.fromkeys(organizations[:8])),  # dedup, keep order
-        "education": [],  # Phase 4: GLiNER will fill this
-        "certifications": [],  # Phase 4: GLiNER will fill this
+        "experience": list(dict.fromkeys(organizations[:8] + gliner_res.get("companies", [])[:4])),
+        "education": gliner_res.get("education", []),
+        "certifications": gliner_res.get("certifications", []),
         "years_experience": int(years_matches[0]) if years_matches else None,
         "raw_text": raw_text_stored,
         "extracted_date": datetime.now().isoformat(),
