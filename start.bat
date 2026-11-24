@@ -72,10 +72,14 @@ echo  LLM model       : %OLLAMA_MODEL%
 echo  API endpoint    : http://127.0.0.1:5000
 echo.
 
-echo Launching browser at http://127.0.0.1:5000
-start http://127.0.0.1:5000
+echo  Architecture  : Pure Headless REST API Gateway
+echo  Root Catalog  : http://127.0.0.1:5000/
+echo  Health Check  : http://127.0.0.1:5000/health
+echo  Upload API    : http://127.0.0.1:5000/upload (POST)
+echo  Generate API  : http://127.0.0.1:5000/generate (POST)
+echo.
 
-echo Starting Flask app (modular src/ layout)...
+echo Starting Flask headless API service...
 echo Press Ctrl+C to stop.
 echo.
 

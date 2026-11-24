@@ -95,18 +95,18 @@ Where:
 ```mermaid
 graph TB
     subgraph Host Network
-        ClientBrowser["Web Browser"]
+        APIClient["Client Applications / API Consumers"]
     end
 
     subgraph Docker Network: jobmatcher_network
-        Nginx["nginx (Port 80)\nReverse Proxy & Static Asset Cache\nUpload Limit: 15MB"]
+        Nginx["nginx (Port 80)\nReverse Proxy & Buffer\nUpload Limit: 15MB"]
         API["api (Port 5000)\nPython 3.13 + Gunicorn WSGI\nNon-Root appuser"]
         MongoDB[("mongodb (Port 27017)\nMongo 7.0 Community\nVolume: mongo_data")]
         Qdrant[("qdrant (Port 6333 / 6334)\nVector Engine v1.9.0\nVolume: qdrant_storage")]
         Ollama["ollama (Port 11434)\nLocal LLM Inference Engine\nVolume: ollama_models"]
     end
 
-    ClientBrowser -->|HTTP :80| Nginx
+    APIClient -->|HTTP :80| Nginx
     Nginx -->|Proxy :5000| API
     API -->|Read/Write| MongoDB
     API -->|Vector Indexing| Qdrant

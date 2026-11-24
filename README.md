@@ -4,7 +4,7 @@
 [![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-An intelligent, production-grade resume parser and job-matching platform powered by **Multi-Strategy Document Parsing**, **Hybrid RAG (Dense + BM25 + Reciprocal Rank Fusion)**, and **Local LLM Analysis (Ollama)**.
+An intelligent, production-grade headless REST API for resume parsing and job matching powered by **Multi-Strategy Document Parsing**, **Hybrid RAG (Dense + BM25 + Reciprocal Rank Fusion)**, and **Local LLM Analysis (Ollama)**.
 
 ---
 
@@ -92,7 +92,7 @@ Make sure [Docker Desktop](https://www.docker.com/products/docker-desktop/) is i
    ```
 
 4. **Access the application**:
-   - Web Application: [http://localhost](http://localhost)
+   - API Service Catalog: [http://localhost](http://localhost)
    - API Healthcheck: [http://localhost/health](http://localhost/health)
    - Qdrant Dashboard: [http://localhost:6333/dashboard](http://localhost:6333/dashboard)
 
@@ -109,7 +109,7 @@ Make sure [Docker Desktop](https://www.docker.com/products/docker-desktop/) is i
    ```cmd
    start.bat
    ```
-   *The launcher will verify virtual environment dependencies, ensure MongoDB and Ollama services are up, and launch the browser automatically.*
+   *The launcher will verify virtual environment dependencies, ensure MongoDB and Ollama services are up, and start the headless API gateway.*
 
 3. **Manual Setup (Alternative)**:
    ```bash
@@ -127,12 +127,11 @@ Make sure [Docker Desktop](https://www.docker.com/products/docker-desktop/) is i
 ```text
 job_matcher/
 ├── config.py                 # Centralized environment configuration
-├── app.py                    # Application factory and entry point
+├── app.py                    # Application factory and entry point (Pure JSON API)
 ├── Dockerfile                # Production non-root multi-stage Dockerfile
 ├── docker-compose.yml        # Orchestration (API, MongoDB, Qdrant, Ollama, Nginx)
 ├── requirements.txt          # Python dependencies with flexible version bounds
 ├── start.bat                 # Automated Windows startup script
-├── index.html                # Frontend User Interface
 ├── nginx/
 │   └── nginx.conf            # Nginx reverse proxy configuration (15MB upload limit)
 ├── src/
@@ -163,7 +162,29 @@ job_matcher/
 
 ## 📡 REST API Reference
 
-### 1. `POST /upload`
+### 1. `GET /`
+Service discovery endpoint returning API status, version, and route specifications.
+
+- **Request**: `GET /`
+- **Response**:
+  ```json
+  {
+    "service": "AI Job Matcher API",
+    "version": "2.0.0",
+    "status": "online",
+    "mode": "headless-api",
+    "endpoints": {
+      "catalog": "GET /",
+      "health": "GET /health",
+      "upload_resume": "POST /upload (multipart/form-data: 'file')",
+      "generate_matches": "POST /generate (application/json: '{\"user_id\": \"...\"}')"
+    }
+  }
+  ```
+
+---
+
+### 2. `POST /upload`
 Upload a candidate resume in PDF or DOCX format.
 
 - **Request**: Multipart Form Data (`file: <binary>`)

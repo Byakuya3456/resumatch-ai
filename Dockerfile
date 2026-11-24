@@ -25,7 +25,7 @@ RUN pip install --upgrade pip && \
 RUN python -m spacy download en_core_web_sm
 
 # Copy application source code
-COPY config.py app.py index.html summary.txt ./
+COPY config.py app.py ./
 COPY src/ ./src/
 
 # Create uploads directory with appropriate permissions
